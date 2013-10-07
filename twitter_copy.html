@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://abs.twimg.com/favicons/favicon.ico" >
+	<link rel="stylesheet" type="text/css" href="reset.css" />
+	<link rel="stylesheet" type="text/css" href="twitter_copy.css" />
+	<script src='http://code.jquery.com/jquery-2.0.3.js'></script>
+    <script src='twitter_copy.js'></script>
+</head>
+<body>
+	<header>
+		<div id='container'>
+			<ul>
+				<li><a href='#' class='home'><i></i>Home</a></li>
+				<li><a href='#' class='connect'><i></i>Connect</a></li>
+				<li><a href='#' class='discover'><i></i>Discover</a></li>
+				<li><a href='#' class='me'><i></i>Me</a></li>
+			</ul>
+			<div class='etched-bird'></div>
+			<form>
+				<input class='search' type='text' placeholder='Search'>
+				<button type="submit"></button>
+			</form>
+			<i class="topbar-divider"></i>
+			<div class='settings'></div>
+			<i class="topbar-divider"></i>
+			<div class='compose'><i></i></div>
+		</div>
+
+
+	</header>
+	<div id="main">
+		<div class="content-box">	
+			<div class="profile"></div>
+			<div class="tweets">
+				<div class='top'>Tweets</div>
+				<div class='content'>
+    				<div class='pic'></div>
+    				<span class='name'>Daniel Linde</span><span class='username'>@danlinde</span><span class='time'>1m</span>
+    				<div class='tweet'>There's four different playoff baseball games today. Not a bad day, as far as days go.</div>
+    				<div class='footer'>Expand</div>
+				</div>
+				<div id="postswrapper">
+   					<div class="item">more tweets</div>
+   					<div id="loadmoreajaxloader" style="display:none;"><center><img src="images/loader.gif" /></center></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

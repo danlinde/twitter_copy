@@ -1,4 +1,6 @@
 twitter_copy
 ============
 
-friday test to copy twitter html
+Makers Academy - Week 5 task:
+
+Copy look and feel of twitter.com using HTML, CSS, JQuery.
